@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/App/assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-around;
+
+    height: 80vh;
+}
+
+.container button {
+    background-color: yellow;
+    width: 300px;
+    height: 200px;
+    border-radius: .8rem;
+    outline: none;
+    border: none;
+
+    font-weight: bold;
+    font-size: 1.2rem;
+}
